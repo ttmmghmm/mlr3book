@@ -1,0 +1,7 @@
+## Dictionaries {#dictionaries}
+
+A `r ref("Dictionary")` is a key-value data structure used by mlr3.
+If you have been following along with this book, you have most likely already been using them.
+For example, the three pre-defined dictionaries `r ref("mlr_tasks")`, `r ref("mlr_learners")` and `r ref("mlr_resamplings")` are meant to give you a central place to look at for tasks, available learners and resamplings, respectively.
+The convenience functions like `r ref("tsk()")`,`r ref("lrn()")` and `r ref("rsmp()")` use these in the background, too.
+This section should give you an overview about our implementation of dictionaries and why we are using dictionaries in mlr3 in contrast to other key-value stores.
